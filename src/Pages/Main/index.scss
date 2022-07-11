@@ -1,0 +1,25 @@
+.header-badge {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  top: -14px;
+  right: 11px;
+}
+
+.notification-list {
+  max-width: 400px;
+}
+
+.notification-list-item {
+  white-space: normal !important;
+}
+
+.notification-list-text {
+  display: -webkit-box;
+  max-width: 300px;
+  max-height: 80px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
